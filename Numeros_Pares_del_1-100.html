@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<h1>Numeros Pares del 1 al 100</h1>
+
+<script>
+    function saltaLinea(){
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function imprimir(frase){
+        document.write(frase);
+        saltaLinea();
+    }
+
+    x = 1;
+    
+    while(x <= 100){
+        Y = x * 2;
+        imprimir(Y);
+        x++;
+    }
+</script>

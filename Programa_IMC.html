@@ -1,0 +1,46 @@
+<meta charset="UTF-8">
+
+<h1>Promagrama para calcular el IMC</h1>
+
+<script>
+    function saltarLinea(){
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+        
+    }
+
+    function imprimir(frase){
+        document.write(frase);
+        saltarLinea();
+
+    }
+
+    function calcularIMC(peso,altura){
+
+        imc = peso / (altura * altura);
+        return imc;
+
+    }
+
+    //pesoFelipe = 80;
+    //alturaFelipe = 1.82;
+    //imcFelipe = pesoFelipe / (alturaFelipe*alturaFelipe);
+    //calcularIMC(80 , 1.82 , "Felipe", 82 , 1.77 , "Samuel");
+    //calcularIMC(50 , 1.62 , "Luiza", 55 , 1.67 , "Fernanda");
+
+    //imprimir("El indice de masa corporar de felipe es de: "+ imcFelipe);
+
+    //pesoSamuel = 82;
+    //alturaSamuel = 1.77;
+    //imcSamuel = pesoSamuel / (alturaSamuel*alturaSamuel);
+    //calcularIMC(82 , 1.77 , "Samuel");
+
+    //imprimir("El indice de masa corporar de Samuel es de: "+imcSamuel);
+
+    var imcFelipe = calcularIMC (80 , 1.82);
+    var imcSamuel = calcularIMC (82 , 1.77);
+
+    imprimir("El promedio del IMC de Felipe y Samuel es: "+(imcFelipe+imcSamuel)/2);
+
+</script>

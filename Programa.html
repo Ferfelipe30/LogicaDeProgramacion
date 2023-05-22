@@ -1,0 +1,90 @@
+<meta charset="UTF-8">
+
+<h1>Programa</h1>
+
+<script>
+    
+    //Funciones
+    
+    function saltarLinea(){
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function imprimir(frase){
+        document.write(frase);
+    }
+
+    var año = 2027;
+    //var saltoDeLinea = "<br>";
+
+    imprimir("Hola amigos");
+
+    saltarLinea();
+    imprimir("El promedio y la suma de las edades de Juan, Pedro y Carlos ... <br>"+(20+25+15));
+    saltarLinea();
+    imprimir((20+25+15)/3);
+    saltarLinea();
+
+    imprimir("Juan nacion en el año ...");
+    saltarLinea();
+    imprimir(2022 - 20);
+    saltarLinea();
+    
+    imprimir("Pedro nacion en el año ...");
+    saltarLinea();
+    imprimir(2022 - 25);
+    saltarLinea();
+
+    imprimir("Carlos nacion en el año ...");
+    saltarLinea();
+    imprimir(2022 - 15);
+    saltarLinea();
+
+    imprimir("Juan tiene: " + (2022-2002)+" años");
+    saltarLinea();
+
+    imprimir("Pedro tiene: " + (2022 - 1997) + " años");
+    saltarLinea();
+
+    imprimir("Carlos tiene: " + (2022 - 2007) + " año");
+    saltarLinea();
+    
+    imprimir("Juan tiene: " + (año-2002)+" años");
+    saltarLinea();
+
+    imprimir("Pedro tiene: " + (año - 1997) + " años");
+    saltarLinea();
+
+    imprimir("Carlos tiene: " + (año - 2007) + " año");
+    saltarLinea();
+
+    //Programacion secuencial.
+
+    año = 2023;
+
+    imprimir("Jimena tiene: " + (año-2010)+" años");
+    saltarLinea();
+
+    imprimir("Paola tiene: " + (año - 1995) + " años");
+    saltarLinea();
+
+    imprimir("Laura tiene: "+ (año - 2005) + " años");
+    saltarLinea();
+
+    var edadJimena = año-2010;
+    var edadPaola = año-1995;
+    var edadLaura = año-2005;
+    
+    //Las variables no solo se le pueden asignar numeros sino tambien letras.
+
+    promedio = (edadJimena + edadPaola + edadLaura)/3;
+
+    imprimir("El promedio de las edades de los 3 muejeres es: " + Math.round(promedio));
+    saltarLinea();
+
+    
+
+
+</script>
